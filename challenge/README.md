@@ -1,7 +1,8 @@
 **Introduction**
-This is a program when given a user input will recommend ther user movies similar to their input. It will allow for user to choose which data will be used to compare such as genre, overview or combined. 
-It will also allow for user to choose which algorithm to pick TF-IDF or SBERT. 
-It will output the top 5 movies most similar to the user's liking from their input.
+
+- This is a program when given a user input will recommend ther user movies similar to their input. It will allow for user to choose which data will be used to compare such as genre, - overview or combined. 
+- It will also allow for user to choose which algorithm to pick TF-IDF or SBERT. 
+- It will output the top 5 movies most similar to the user's liking from their input.
 
 1. **Dataset**
     - Found in Kaggle
