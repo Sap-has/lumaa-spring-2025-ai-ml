@@ -21,8 +21,11 @@
 
     **Installation**
     **Create and activate a virtual environment**
+   
     python -m venv venv
+   
     source venv/bin/activate  # Mac/Linux
+   
     venv\Scripts\activate  # Windows
 
     **Install dependencies**
@@ -31,7 +34,7 @@
     **Running The Program**
     python movie_recc.py
 
-4. **Example input and outputs**
+5. **Example input and outputs**
     - user input
     
     'I enjoy comidies that have action and are fantasy related.'
