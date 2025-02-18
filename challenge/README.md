@@ -22,17 +22,19 @@
     **Installation**
     **Create and activate a virtual environment**
    
-    python -m venv venv
+        python -m venv venv
    
-    source venv/bin/activate  # Mac/Linux
+        source venv/bin/activate  # Mac/Linux
    
-    venv\Scripts\activate  # Windows
+        venv\Scripts\activate  # Windows
 
     **Install dependencies**
-    pip install -r requirements.txt
+   
+        pip install -r requirements.txt
 
     **Running The Program**
-    python movie_recc.py
+   
+        python movie_recc.py
 
 5. **Example input and outputs**
     - user input
