@@ -25,24 +25,26 @@
     source venv/bin/activate  # Mac/Linux
     venv\Scripts\activate  # Windows
 
-    # Install dependencies
+    ## Install dependencies
     pip install -r requirements.txt
 
     **Running The Program**
     python movie_recc.py
 
 4. **Example input and outputs**
-    user input
+    - user input
+    
     'I enjoy comidies that have action and are fantasy related.'
+
     'combined'
+
     'sbert'
 
-    output
-    '''
+    - output
+      
     Top Recommendations:
     Babylon
     Frozen II
     Groot Takes a Bath
     Barbie
     King Shakir Recycle
-    '''
