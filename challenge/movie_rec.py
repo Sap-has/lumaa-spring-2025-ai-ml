@@ -12,7 +12,7 @@ def load_data(file_path):
 
 def tfidf_recommendation(df, user_input, column):
     """Recommend movies using TF-IDF and Cosine Similarity."""
-    vectorizer = TfidfVectorizer(stop_words="english")
+    vectorizer = TfidfVectorizer()
     tfidf_matrix = vectorizer.fit_transform(df[column].tolist() + [user_input])
     cosine_sim = cosine_similarity(tfidf_matrix[:-1], tfidf_matrix[-1])
     top_indices = cosine_sim.flatten().argsort()[-5:][::-1]  # Top 5 matches
@@ -31,7 +31,8 @@ def main():
     file_path = "movies.csv"
     df = load_data(file_path)
     user_input = input("Enter a movie description or genre preference: ")
-    '''
+    
+    '''The code below allows for user to chose which combintion they want for recommendations'''
     approach = input("Choose approach (genre/overview/combined): ").strip().lower()
     method = input("Choose method (tfidf/sbert): ").strip().lower()
     
@@ -48,8 +49,9 @@ def main():
     print("Top Recommendations:")
     for movie in recommendations:
         print(movie)
-    '''
 
+    '''
+    below is the code to showcase 5 titles for all combinations
     approaches = {"genre": "genre", "overview": "overview", "combined": "combined_text"}
     methods = {"tfidf": tfidf_recommendation, "sbert": sbert_recommendation}
     
@@ -62,6 +64,7 @@ def main():
             for movie in recommendations:
                 print(movie)
             print("-" * 40)
+    '''
     
 if __name__ == "__main__":
     main()
