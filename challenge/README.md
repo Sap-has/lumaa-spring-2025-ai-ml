@@ -20,12 +20,12 @@
     - Virtual environment (recommended)
 
     **Installation**
-    # Create and activate a virtual environment
+    **Create and activate a virtual environment**
     python -m venv venv
     source venv/bin/activate  # Mac/Linux
     venv\Scripts\activate  # Windows
 
-    ## Install dependencies
+    **Install dependencies**
     pip install -r requirements.txt
 
     **Running The Program**
@@ -43,8 +43,13 @@
     - output
       
     Top Recommendations:
+   
     Babylon
+
     Frozen II
+   
     Groot Takes a Bath
+   
     Barbie
+   
     King Shakir Recycle
