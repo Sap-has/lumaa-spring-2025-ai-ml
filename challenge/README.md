@@ -58,3 +58,7 @@
     Barbie
    
     King Shakir Recycle
+
+## Salary Expectation
+My expected salary is **$2,100 per month**.
+Assuming 30hrs/week.
